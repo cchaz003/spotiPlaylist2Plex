@@ -2,4 +2,3 @@ spotipy
 plexapi
 argparse
 fuzzywuzzy
-eyed3

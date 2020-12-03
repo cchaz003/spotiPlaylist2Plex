@@ -1,4 +1,4 @@
-import sys, os, time, shutil, eyed3, spotipy, time, datetime, logging, io
+import sys, os, time, shutil, spotipy, time, datetime, logging, io
 from urllib.request import urlopen
 from spotipy.oauth2 import SpotifyClientCredentials
 
