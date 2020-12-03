@@ -211,12 +211,6 @@ def addToPlaylist(plexServer, trackList, libName, playlistName):
 		else:
 			print("No new songs to add. Playlist is unchanged.")
 
-				
-
-
-
-	# 
-
 
 def makePlaylist(trackList, libName, playlistName):
 
@@ -299,10 +293,5 @@ def handler(signal_received, frame):
 if __name__ == '__main__':
 	# Tell Python to run the handler() function when SIGINT is recieved
 	signal(SIGINT, handler)
-
-	#redirect logging to log_stream. Hides the LAME tagging crc errors on new files
-	log_stream = io.StringIO()
-	logging.basicConfig(stream=log_stream, level=logging.INFO)
-
 	main()
 
